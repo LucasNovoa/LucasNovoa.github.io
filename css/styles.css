@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -40,6 +41,8 @@ body {
     align-self: center;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 38rem;
+    height: 3rem;
     margin-top: 4rem;
 }
 
@@ -47,7 +50,7 @@ body {
     color: inherit;
     text-decoration: none;
     font-family: inherit;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     margin: 0 15px;
     opacity: 0.7;
 }
@@ -63,7 +66,7 @@ button {
     align-self: end;
     border: none;
     font-family: inherit;
-    /* padding: 1rem; */
+    color: #292928;
     margin-top: 3rem;
     width: 3rem;
     height: 3rem;
@@ -121,6 +124,20 @@ h4 {
     font-weight: 400;
 }
 
+.pp {
+    text-align: justify;
+    hyphens: auto;
+    line-height: 1.4;
+}
+
+li {
+    line-height: 1.8;
+}
+
+#emailReferencias {
+    color: inherit;
+}
+
 #arrowUp {
     position: fixed;
     align-self: flex-end;
@@ -148,10 +165,19 @@ h4 {
 
     .col2 {
         width: 100%;
-        margin-top: 2rem;
+        margin-top: 4rem;
     }
 
     .linkContainer {
         flex-direction: column;
+        align-items: flex-end;
+        height: auto;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .linkContainer a {
+        margin: 8px 0 0;
+        letter-spacing: 2px;
     }
 }
