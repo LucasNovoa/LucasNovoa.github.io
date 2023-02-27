@@ -1,12 +1,14 @@
-# Argentina Programa 4.0 - Proyecto Final Primeros pasos en el desarrollo front-end - Curriculum Vitae
+# Argentina Programa 4.0
 
-Este proyecto es el resultado final del primer módulo del curso de programación de Desarrollo Frontend. Consiste en un Curriculum Vitae diseñado con HTML, CSS y Javascript.
+### Proyecto Final Primeros pasos en el desarrollo front-end
 
-### Requisitos
+Este proyecto es el resultado final del primer módulo del curso de programación de Argentina Programa 4.0. Consiste en un Curriculum Vitae diseñado con HTML, CSS y Javascript.
+
+## Requisitos
 
 Para ejecutar este proyecto es necesario contar con un navegador web actualizado (Chrome, Firefox, Safari, Edge, etc.) y un editor de código como Visual Studio Code o Atom, etc.
 
-### Instrucciones
+## Instrucciones
 
 1. Clonar este repositorio en su computadora:
 
@@ -18,7 +20,7 @@ git clone https://github.com/LucasNovoa/ArgentinaPrograma-FrontEnd-CV.git
 
 3. Si desea editar el código fuente, abra los archivos HTML, CSS y Javascript en el editor de código.
 
-### Estructura del proyecto
+## Estructura del proyecto
 
 El proyecto está estructurado de la siguiente manera:
 
@@ -37,12 +39,12 @@ ArgentinaPrograma-FrontEnd-CV/
 - js/: carpeta que contiene los archivos Javascript.
 - app.js: archivo Javascript que contiene las funciones y los eventos que se utilizan en el CV.
 
-### Tecnologías utilizadas
+## Tecnologías utilizadas
 - HTML5
 - CSS3
 - Javascript
 
-### Deploy
+## Deploy
 
 Este proyecto ha sido desplegado en [Netlify](https://www.netlify.com/). Puedes acceder a la versión en vivo del sitio en el siguiente enlace: [cv-argentina-programa.netlify.app](https://cv-argentina-programa.netlify.app/).
 
