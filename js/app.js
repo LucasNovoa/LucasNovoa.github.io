@@ -16,7 +16,7 @@ fetch('https://randomuser.me/api/?gender=male')
       .then(response => response.json())
       .then(user => {
         user = user.results[0]
-        console.log(user)
+        // console.log(user)
         document.getElementById('name').innerHTML = user.name.first + ' ' + user.name.last;
         document.getElementById('profileImg').src = user.picture.large;
         document.getElementById('email').innerHTML = '<i class="fas fa-envelope"></i> ' + user.email;
@@ -30,4 +30,6 @@ fetch('https://randomuser.me/api/?gender=male')
 
 document.getElementById('profileImg').src;
 
-document.getElementById('arrowUp').onclick = () => window.scrollTo({top: 0, behavior: 'smooth'});
+document.getElementById('arrowUp').onclick = () => {
+    window.scrollTo(0,0)
+};
